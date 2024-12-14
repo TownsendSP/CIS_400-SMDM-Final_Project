@@ -6,7 +6,8 @@ import matplotlib.lines as mlines
 
 # Read the CSV file, selecting only the specified columns
 columns_to_use = ['created_at', 'langs', 'text', 'image_alt', 'image_url', 'sentiment_label', 'sentiment_score']
-df = pd.read_csv('/Users/aaronmoradi/Downloads/bluesky_5m_sentiment_analyzed.csv', 
+# Please edit to your specific location of the Bluesky CSV
+df = pd.read_csv('bluesky_5m_sentiment_analyzed.csv', 
                  usecols=columns_to_use)
 
 # Calculate text length
