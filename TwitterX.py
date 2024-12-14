@@ -5,6 +5,7 @@ from sklearn.cluster import KMeans
 import matplotlib.lines as mlines
 
 # Read the CSV file
+# Please edit to your specific location of the X (Twitter) CSV
 df = pd.read_csv('/Users/aaronmoradi/Downloads/twitter_6m_sentiment_analyzed.csv')
 
 # Calculate text length
