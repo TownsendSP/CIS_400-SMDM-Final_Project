@@ -6,7 +6,7 @@ import matplotlib.lines as mlines
 
 # Read the CSV file
 # Please edit to your specific location of the X (Twitter) CSV
-df = pd.read_csv('/Users/aaronmoradi/Downloads/twitter_6m_sentiment_analyzed.csv')
+df = pd.read_csv('twitter_6m_sentiment_analyzed.csv')
 
 # Calculate text length
 df['text_length'] = df['text'].str.len()
