@@ -1,4 +1,7 @@
 # CIS_400-SMDM-Final_Project
+
+https://github.com/TownsendSP/CIS_400-SMDM-Final_Project
+
 Final Project - Comparitive Sentiment Analysis of Bluesky and Twitter
 
 A Python-based project for processing, cleaning, analyzing, and visualizing social media data. This project provides tools for working with JSONL and CSV files, sentiment analysis, and graph visualization for platforms like X (Twitter) and Bluesky.
